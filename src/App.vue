@@ -1,4 +1,5 @@
 <template>
+<h1>Hello! Wanatchaya</h1>
   <div id="flashMessage" v-if="GStore.flashMessage">
     {{ GStore.flashMessage }}
   </div>
@@ -10,6 +11,7 @@
   <!-- new element -->
   <router-view />
 </template>
+
 <script>
 export default {
   inject: ['GStore'] // <----
