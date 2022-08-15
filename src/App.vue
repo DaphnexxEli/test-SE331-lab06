@@ -1,5 +1,4 @@
 <template>
-
   <div id="flashMessage" v-if="GStore.flashMessage">
     {{ GStore.flashMessage }}
   </div>
@@ -15,8 +14,8 @@
 
 <script>
 export default {
-  inject: ['GStore'] // <----
-}
+  inject: ["GStore"], // <----
+};
 </script>
 <style>
 @keyframes yellowfade {
